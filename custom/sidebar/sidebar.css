@@ -1,0 +1,69 @@
+.dropbar {
+  background-color: white;
+  width: 240px;
+  height: 100%;
+  z-index: 5;
+  position: fixed;
+  color: pink;
+  /* display: none; */
+  transition-duration: 1s;
+  left: -100%;
+}
+
+.db_mm {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  color: black;
+  transition-duration: 0.2s;
+  text-align: center;
+  text-transform: uppercase;
+}
+.db_mm:hover {
+  background-color: #14bdee;
+  cursor: pointer;
+}
+.db_mm:hover a {
+  color: white;
+}
+#dbClose {
+  margin-top: 1rem;
+  margin-left: 10%;
+  display: block;
+  font-size: 40px;
+  cursor: pointer;
+  color: black;
+}
+
+.bars_button {
+  color: black !important;
+  z-index: 4;
+  position: fixed;
+  top: 130px;
+  left: 0;
+}
+
+/*----------------- right dropdown css ------------*/
+
+.menu_nav ul li {
+  padding: 20px 105px;
+  font-weight: bolder;
+  color: #0084ff;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+
+.menu_nav ul li a {
+  color: #0084ff;
+}
+
+.menu_nav ul li:hover {
+  background-color: #14bdee;
+  cursor: pointer;
+}
+
+.menu_nav ul li:hover a {
+  color: white;
+}

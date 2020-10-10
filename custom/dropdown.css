@@ -1,0 +1,32 @@
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle:hover + .dd-menu {
+  opacity: 1;
+}
+.dd-menu:hover {
+  opacity: 1;
+}
+.dd-item:hover {
+  color: white !important;
+  background-color: #14bdee;
+}
+.dd-menu {
+  /* border: 1px solid #14bdee; */
+  margin-top: 23px;
+  opacity: 0;
+  position: absolute;
+  background-color: white;
+  width: max-content;
+}
+.dd-item {
+  /* border-bottom: 1px solid #14bdee; */
+  text-align: center;
+  display: block;
+  color: #14bdee;
+  padding-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 15px;
+}
