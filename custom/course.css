@@ -34,6 +34,10 @@
     font-size: 20px;
 }
 
+#enroll {
+    border-top: 10px solid skyblue;
+}
+
 
 /* .banner-right::before {
     content: "";
